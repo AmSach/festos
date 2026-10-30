@@ -1,0 +1,1 @@
+# FestOS standard library dependencies (no third-party required)

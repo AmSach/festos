@@ -1,4 +1,6 @@
-festos.db*
+festos.db-wal
+festos.db-shm
 snapshots/
 .festos_secret
 __pycache__/
+.vercel
