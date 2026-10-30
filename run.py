@@ -13,6 +13,13 @@ import os
 import sys
 import webbrowser
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from festos import api  # noqa: F401  (registers routes)
@@ -37,7 +44,7 @@ def main():
         api._frontier_async()          # cost/cohesion alternatives compute in the background
     httpd = server.serve(a.host, a.port)
     url = f"http://{'localhost' if a.host in ('127.0.0.1', '0.0.0.0') else a.host}:{a.port}"
-    print(f"\n  FestOS is running → {url}\n  Demo password for every staff ID: aarohan2026  (e.g. ST08 = Festival Director)\n  Ctrl+C to stop.\n")
+    print(f"\n  FestOS is running -> {url}\n  Demo password for every staff ID: aarohan2026  (e.g. ST08 = Festival Director)\n  Ctrl+C to stop.\n")
     if not a.no_browser:
         try:
             webbrowser.open(url)
