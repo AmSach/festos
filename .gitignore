@@ -1,0 +1,4 @@
+festos.db*
+snapshots/
+.festos_secret
+__pycache__/

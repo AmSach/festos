@@ -1,0 +1,39 @@
+college,contingent_id,leader,escort,strength_declared,preferences
+IIM Indore,C01,Aditi Gupta,Naman Joshi,6,no preference
+IIM Kozhikode,C02,Ananya Mehta,Nidhi Iyer,101,no preference
+IIM Shillong,C03,Arjun Rao,Raghav Das,116,no preference
+IIM Ranchi,C04,Diya Khan,Riya Kapoor,47,ground floor if possible
+IIM Rohtak,C05,Ishaan Nair,Saanvi Malhotra,107,low cost
+IIM Udaipur,C06,Kavya Joshi,Sarthak Bose,98,keep together; near venue
+IIT Indore,C07,Meera Iyer,Shreya Sharma,137,low cost
+IIT Bombay,C08,Naman Das,Tanvi Verma,45,no preference
+IIT Delhi,C09,Nidhi Kapoor,Varun Patel,79,no preference
+IIT Kanpur,C10,Raghav Malhotra,Vansh Singh,29,keep together; near venue
+NIT Trichy,C11,Riya Bose,Yash Gupta,101,low cost
+NIT Warangal,C12,Saanvi Sharma,Zoya Mehta,42,quiet rooms
+NIT Surat,C13,Sarthak Verma,Aarav Rao,59,keep together; near venue
+BITS Pilani,C14,Shreya Patel,Aditi Khan,56,low cost
+VIT Vellore,C15,Tanvi Singh,Ananya Nair,132,keep together; near venue
+Christ University,C16,Varun Gupta,Arjun Joshi,46,low cost
+Symbiosis Pune,C17,Vansh Mehta,Diya Iyer,138,keep together; near venue
+NMIMS Mumbai,C18,Yash Rao,Ishaan Das,19,quiet rooms
+Delhi University,C19,Zoya Khan,Kavya Kapoor,28,keep together; near venue
+Mumbai University,C20,Aarav Nair,Meera Malhotra,69,low cost
+St Xavier’s Mumbai,C21,Aditi Joshi,Naman Bose,96,quiet rooms
+Manipal University,C22,Ananya Iyer,Nidhi Sharma,84,same floor
+Amity Noida,C23,Arjun Das,Raghav Verma,53,keep together; near venue
+Ashoka University,C24,Diya Kapoor,Riya Patel,43,keep together; near venue
+SRCC,C25,Ishaan Malhotra,Saanvi Singh,131,same floor
+Lady Shri Ram College,C26,Kavya Bose,Sarthak Gupta,126,ground floor if possible
+Hansraj College,C27,Meera Sharma,Shreya Mehta,45,no preference
+Fergusson College,C28,Naman Verma,Tanvi Rao,60,no preference
+St Joseph’s Bangalore,C29,Nidhi Patel,Varun Khan,62,ground floor if possible
+XIMB,C30,Raghav Singh,Vansh Nair,117,low cost
+MICA Ahmedabad,C31,Riya Gupta,Yash Joshi,124,low cost
+SCMS Pune,C32,Saanvi Mehta,Zoya Iyer,43,keep together; near venue
+Christ Delhi,C33,Sarthak Rao,Aarav Das,102,no preference
+Flame University,C34,Shreya Khan,Aditi Kapoor,90,quiet rooms
+BML Munjal University,C35,Tanvi Nair,Ananya Malhotra,60,low cost
+Jaipuria Institute,C36,Varun Joshi,Arjun Bose,44,same floor
+MIT-WPU,C37,Vansh Iyer,Diya Sharma,20,quiet rooms
+Jain University,C38,Yash Das,Ishaan Verma,87,quiet rooms

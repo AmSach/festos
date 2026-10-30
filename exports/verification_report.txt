@@ -1,0 +1,27 @@
+PASS  Gender pool respected (nobody outside the binary in a binary floor; men/women in their pool)  
+PASS  Wheelchair users only in accessible rooms                                                     
+PASS  Ground-floor / blank accessibility need only on floor 0 or verified step-free                 
+PASS  Minors never at a property without regular transport                                          
+PASS  Escorts not in student hostel rooms                                                           
+PASS  Only active, confirmed people hold beds                                                       
+PASS  Allocated nights match the person's stay                                                      
+PASS  No bed double-booked on any night                                                             
+PASS  Room capacity respected every night                                                           
+PASS  One housing category per room per night; escorts in private rooms                             
+PASS  Site capacity respected every night                                                           
+PASS  Nobody housed in a closed site after it closes                                                
+PASS  External spend within budget (or Director override recorded)                                  ₹2,575,400 of ₹2,600,000
+PASS  Leaders and escorts housed near their group                                                   
+PASS  Schedule: no judge clash                                                                      
+PASS  Schedule: no panel overlap                                                                    
+PASS  Schedule: no round order                                                                      
+PASS  Schedule: no team split                                                                       
+PASS  Schedule: no venue capacity                                                                   
+PASS  Schedule: no venue double booked                                                              
+PASS  Schedule: no venue requirement                                                                
+PASS  Schedule: no venue window                                                                     
+PASS  Each entitled item issued at most once per person                                             
+PASS  Merchandise never issued beyond stock                                                         
+PASS  Audit log hash chain intact                                                                   3 entries
+
+25/25 hard rules hold.

@@ -1,0 +1,97 @@
+type,by,item,qty,from,to,for_or_missing
+move,2026-10-30 07:30,mic,2,Store Room A,LT-1,IPL Auction · prelims · E19-P2
+move,2026-10-30 07:30,speaker,1,Main Stage,LT-1,IPL Auction · prelims · E19-P2
+move,2026-10-30 07:30,tripod,1,Main Stage,LT-2,Table Tennis · prelims · E27-P2
+move,2026-10-30 08:00,projector,1,Main Stage,Hostel Lawn,Poetry Slam · prelims · E13-P2
+move,2026-10-30 08:00,extension cord,2,Sports Complex,Hostel Lawn,Poetry Slam · prelims · E13-P2
+move,2026-10-30 09:00,tripod,1,Main Stage,LT-1,Design Sprint · prelims · E10-P2
+move,2026-10-30 09:45,barricade,8,Store Room A,Seminar Hall,Badminton · prelims · E26-P1
+move,2026-10-30 10:15,barricade,8,Store Room A,LT-1,Photography Walk · prelims · E15-P2
+move,2026-10-30 11:45,projector,1,Main Stage,LT-2,Stand-up · prelims · E14-P2
+move,2026-10-30 11:45,extension cord,2,Sports Complex,LT-2,Stand-up · prelims · E14-P2
+move,2026-10-30 12:15,tripod,1,Main Stage,Library Hall,Chess · prelims · E23-P3
+move,2026-10-30 12:45,barricade,8,Store Room A,Hostel Lawn,Futsal · single · E24-H2
+move,2026-10-30 13:00,barricade,8,Sports Complex,Amphitheatre,Fashion Show · prelims · E21-P2
+move,2026-10-30 14:30,projector,1,Main Stage,Amphitheatre,Open Mic · prelims · E22-P2
+move,2026-10-30 14:30,extension cord,2,Sports Complex,Amphitheatre,Open Mic · prelims · E22-P2
+move,2026-10-30 17:30,projector,1,Main Stage,Sports Complex,Case Clash · prelims · E03-P1
+move,2026-10-30 17:30,barricade,8,Sports Complex,LT-2,Battle of Bands · prelims · E05-P1
+move,2026-10-30 20:00,tripod,1,Main Stage,Hostel Lawn,Nukkad Natak · prelims · E07-P1
+move,2026-10-30 20:15,mic,2,Store Room A,Amphitheatre,Treasure Trivia · prelims · E29-P1
+move,2026-10-30 20:15,speaker,1,Main Stage,Amphitheatre,Treasure Trivia · prelims · E29-P1
+move,2026-10-31 07:45,barricade,8,Store Room A,Quadrangle,Futsal · single · E24-H1
+move,2026-10-31 08:15,mic,2,Store Room A,LT-2,IPL Auction · prelims · E19-P1
+move,2026-10-31 08:15,speaker,1,Main Stage,LT-2,IPL Auction · prelims · E19-P1
+move,2026-10-31 09:45,barricade,8,Seminar Hall,Library Hall,Street Play · prelims · E06-P1
+move,2026-10-31 10:00,mic,2,Store Room A,Main Stage,IPL Auction · semis · E19-S1
+move,2026-10-31 14:15,tripod,1,Main Stage,Seminar Hall,Chess · semis · E23-S1
+move,2026-10-31 17:15,barricade,8,LT-1,Seminar Hall,Photography Walk · semis · E15-S1
+move,2026-10-31 19:00,projector,1,Main Stage,Quadrangle,Poetry Slam · semis · E13-S1
+move,2026-10-31 19:00,extension cord,2,Sports Complex,Quadrangle,Poetry Slam · semis · E13-S1
+move,2026-10-31 19:30,barricade,8,Seminar Hall,Main Stage,Aarohan · semis · E01-S1
+move,2026-10-31 19:30,barricade,7,Hostel Lawn,Sports Complex,Code Relay · semis · E09-S1
+move,2026-10-31 20:00,barricade,8,Amphitheatre,LT-1,Debate · semis · E11-S1
+move,2026-11-01 09:45,tripod,1,Main Stage,Quadrangle,Nukkad Natak · semis · E07-S1
+move,2026-11-01 10:00,extension cord,2,Sports Complex,Main Stage,Open Mic · finals · E22-F1
+move,2026-11-01 12:30,barricade,8,Sports Complex,Seminar Hall,Code Relay · finals · E09-F1
+move,2026-11-01 14:30,barricade,8,LT-2,Amphitheatre,Photography Walk · finals · E15-F1
+SHORTAGE,2026-10-30 08:00,table,6,,Sports Complex,Short Film E16-H2 needs 6
+SHORTAGE,2026-10-30 08:00,camera,1,,LT-2,Table Tennis E27-P2 needs 1
+SHORTAGE,2026-10-30 09:30,camera,1,,LT-1,Design Sprint E10-P2 needs 1
+SHORTAGE,2026-10-30 10:15,table,6,,Seminar Hall,Badminton E26-P1 needs 6
+SHORTAGE,2026-10-30 10:45,table,6,,LT-1,Photography Walk E15-P2 needs 6
+SHORTAGE,2026-10-30 12:45,table,6,,Sports Complex,Aarohan E01-P1 needs 6
+SHORTAGE,2026-10-30 12:45,camera,1,,Library Hall,Chess E23-P3 needs 1
+SHORTAGE,2026-10-30 12:45,table,6,,Seminar Hall,Badminton E26-P4 needs 6
+SHORTAGE,2026-10-30 13:15,table,6,,Hostel Lawn,Futsal E24-H2 needs 6
+SHORTAGE,2026-10-30 13:30,table,6,,Amphitheatre,Fashion Show E21-P2 needs 6
+SHORTAGE,2026-10-30 14:30,table,6,,Sports Complex,Aarohan E01-P2 needs 6
+SHORTAGE,2026-10-30 15:30,table,6,,LT-1,Code Relay E09-P1 needs 6
+SHORTAGE,2026-10-30 16:15,table,6,,Seminar Hall,Street Play E06-P3 needs 6
+SHORTAGE,2026-10-30 17:15,camera,1,,Library Hall,Chess E23-P1 needs 1
+SHORTAGE,2026-10-30 18:00,table,6,,LT-2,Battle of Bands E05-P1 needs 6
+SHORTAGE,2026-10-30 18:00,table,6,,LT-1,Startup Showcase E30-P1 needs 6
+SHORTAGE,2026-10-30 18:15,table,6,,Seminar Hall,Badminton E26-P2 needs 6
+SHORTAGE,2026-10-30 20:30,camera,1,,Hostel Lawn,Nukkad Natak E07-P1 needs 1
+SHORTAGE,2026-10-30 20:30,table,6,,LT-1,Debate E11-P1 needs 6
+SHORTAGE,2026-10-31 08:00,table,6,,LT-1,Startup Showcase E30-P2 needs 6
+SHORTAGE,2026-10-31 08:15,table,6,,Quadrangle,Futsal E24-H1 needs 6
+SHORTAGE,2026-10-31 10:15,table,6,,Library Hall,Street Play E06-P1 needs 6
+SHORTAGE,2026-10-31 10:15,camera,1,,LT-2,Table Tennis E27-P1 needs 1
+SHORTAGE,2026-10-31 10:30,camera,1,,LT-1,Design Sprint E10-P1 needs 1
+SHORTAGE,2026-10-31 12:00,camera,1,,Library Hall,Chess E23-P2 needs 1
+SHORTAGE,2026-10-31 12:15,table,6,,LT-1,Battle of Bands E05-P2 needs 6
+SHORTAGE,2026-10-31 14:30,table,6,,LT-2,Photography Walk E15-P1 needs 6
+SHORTAGE,2026-10-31 14:45,table,6,,LT-1,Debate E11-P2 needs 6
+SHORTAGE,2026-10-31 14:45,camera,1,,Seminar Hall,Chess E23-S1 needs 1
+SHORTAGE,2026-10-31 14:45,camera,1,,Main Stage,Table Tennis E27-S1 needs 1
+SHORTAGE,2026-10-31 16:00,table,6,,Library Hall,Badminton E26-P3 needs 6
+SHORTAGE,2026-10-31 16:15,table,6,,LT-1,Fashion Show E21-P1 needs 6
+SHORTAGE,2026-10-31 17:00,table,6,,LT-2,Code Relay E09-P2 needs 6
+SHORTAGE,2026-10-31 17:45,table,6,,Seminar Hall,Photography Walk E15-S1 needs 6
+SHORTAGE,2026-10-31 19:15,table,6,,Library Hall,Badminton E26-S1 needs 6
+SHORTAGE,2026-10-31 20:00,table,6,,Main Stage,Aarohan E01-S1 needs 6
+SHORTAGE,2026-10-31 20:00,table,6,,Sports Complex,Code Relay E09-S1 needs 6
+SHORTAGE,2026-10-31 20:30,table,6,,LT-1,Debate E11-S1 needs 6
+SHORTAGE,2026-11-01 08:00,table,6,,Main Stage,Fashion Show E21-S1 needs 6
+SHORTAGE,2026-11-01 08:00,table,6,,LT-2,Startup Showcase E30-S1 needs 6
+SHORTAGE,2026-11-01 08:15,table,6,,LT-1,Battle of Bands E05-S1 needs 6
+SHORTAGE,2026-11-01 08:15,camera,1,,Hostel Lawn,Nukkad Natak E07-P2 needs 1
+SHORTAGE,2026-11-01 09:15,camera,1,,Seminar Hall,Design Sprint E10-S1 needs 1
+SHORTAGE,2026-11-01 10:15,camera,1,,Quadrangle,Nukkad Natak E07-S1 needs 1
+SHORTAGE,2026-11-01 11:00,table,6,,Sports Complex,Short Film E16-H1 needs 6
+SHORTAGE,2026-11-01 11:15,table,6,,LT-1,Aarohan E01-F1 needs 6
+SHORTAGE,2026-11-01 11:45,table,6,,Library Hall,Street Play E06-P2 needs 6
+SHORTAGE,2026-11-01 13:00,table,6,,Seminar Hall,Code Relay E09-F1 needs 6
+SHORTAGE,2026-11-01 13:15,table,6,,Library Hall,Street Play E06-S1 needs 6
+SHORTAGE,2026-11-01 13:15,table,6,,Main Stage,Fashion Show E21-F1 needs 6
+SHORTAGE,2026-11-01 14:45,table,6,,Library Hall,Street Play E06-F1 needs 6
+SHORTAGE,2026-11-01 15:00,table,6,,LT-1,Battle of Bands E05-F1 needs 6
+SHORTAGE,2026-11-01 15:00,table,6,,Amphitheatre,Photography Walk E15-F1 needs 6
+SHORTAGE,2026-11-01 15:45,camera,1,,LT-2,Table Tennis E27-F1 needs 1
+SHORTAGE,2026-11-01 16:00,camera,1,,Seminar Hall,Chess E23-F1 needs 1
+SHORTAGE,2026-11-01 16:00,table,6,,Library Hall,Badminton E26-F1 needs 6
+SHORTAGE,2026-11-01 18:00,camera,1,,Hostel Lawn,Nukkad Natak E07-F1 needs 1
+SHORTAGE,2026-11-01 18:00,table,6,,LT-1,Startup Showcase E30-F1 needs 6
+SHORTAGE,2026-11-01 18:15,camera,1,,Main Stage,Design Sprint E10-F1 needs 1
+SHORTAGE,2026-11-01 18:30,table,6,,Seminar Hall,Debate E11-F1 needs 6

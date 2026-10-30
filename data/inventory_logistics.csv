@@ -1,0 +1,73 @@
+item_id,item,quantity,location,condition
+L00-1,mic,32,Registration Desk,good
+L00-2,mic,16,Store Room A,good
+L00-3,mic,33,Store Room A,good
+L00-4,mic,27,Registration Desk,under repair
+L01-1,speaker,5,Main Stage,good
+L01-2,speaker,4,Main Stage,good
+L01-3,speaker,30,Store Room A,under repair
+L01-4,speaker,16,Van 1,needs check
+L02-1,mixer,32,Registration Desk,good
+L02-2,mixer,20,Van 1,good
+L02-3,mixer,35,Registration Desk,good
+L02-4,mixer,28,Sports Complex,needs check
+L03-1,extension cord,24,Store Room A,under repair
+L03-2,extension cord,22,Sports Complex,good
+L03-3,extension cord,32,Sports Complex,good
+L03-4,extension cord,9,Registration Desk,good
+L04-1,barricade,33,Store Room A,good
+L04-2,barricade,20,Van 1,needs check
+L04-3,barricade,35,Store Room A,under repair
+L04-4,barricade,17,Sports Complex,good
+L05-1,table,15,Sports Complex,needs check
+L05-2,table,8,Van 1,good
+L05-3,table,25,Sports Complex,under repair
+L05-4,table,27,Sports Complex,needs check
+L06-1,chair,29,Store Room A,good
+L06-2,chair,31,Van 1,needs check
+L06-3,chair,16,Van 1,needs check
+L06-4,chair,14,Main Stage,good
+L07-1,projector,15,Store Room A,good
+L07-2,projector,9,Registration Desk,needs check
+L07-3,projector,20,Main Stage,good
+L07-4,projector,4,Van 1,under repair
+L08-1,generator,31,Sports Complex,under repair
+L08-2,generator,6,Sports Complex,good
+L08-3,generator,29,Store Room A,good
+L08-4,generator,13,Main Stage,good
+L09-1,signage,35,Main Stage,under repair
+L09-2,signage,18,Van 1,under repair
+L09-3,signage,8,Registration Desk,needs check
+L09-4,signage,8,Van 1,under repair
+L10-1,first-aid kit,14,Main Stage,needs check
+L10-2,first-aid kit,21,Main Stage,under repair
+L10-3,first-aid kit,17,Main Stage,good
+L10-4,first-aid kit,29,Van 1,good
+L11-1,walkie-talkie,2,Store Room A,needs check
+L11-2,walkie-talkie,12,Registration Desk,under repair
+L11-3,walkie-talkie,29,Registration Desk,good
+L11-4,walkie-talkie,26,Van 1,good
+L12-1,tripod,25,Registration Desk,needs check
+L12-2,tripod,14,Main Stage,good
+L12-3,tripod,33,Main Stage,needs check
+L12-4,tripod,4,Sports Complex,good
+L13-1,camera,7,Registration Desk,under repair
+L13-2,camera,11,Sports Complex,under repair
+L13-3,camera,8,Registration Desk,under repair
+L13-4,camera,5,Store Room A,under repair
+L14-1,stage panel,12,Sports Complex,good
+L14-2,stage panel,27,Store Room A,good
+L14-3,stage panel,11,Van 1,under repair
+L14-4,stage panel,19,Main Stage,good
+L15-1,lighting rig,28,Sports Complex,under repair
+L15-2,lighting rig,31,Sports Complex,under repair
+L15-3,lighting rig,22,Sports Complex,good
+L15-4,lighting rig,28,Sports Complex,under repair
+L16-1,power strip,11,Main Stage,under repair
+L16-2,power strip,28,Sports Complex,good
+L16-3,power strip,9,Main Stage,needs check
+L16-4,power strip,26,Registration Desk,good
+L17-1,registration desk,29,Main Stage,good
+L17-2,registration desk,34,Main Stage,under repair
+L17-3,registration desk,7,Registration Desk,good
+L17-4,registration desk,23,Van 1,needs check

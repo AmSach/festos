@@ -1,0 +1,7 @@
+property_id,property_name,beds,cost_per_bed_per_night,distance_km,transport_availability
+EXT01,Campus Guest House,80,1100,1,yes
+EXT02,Maa Sarada Hostel,120,950,3,yes
+EXT03,Central Residency,180,1800,6,yes
+EXT04,Lakeview Hotel,140,2200,9,limited
+EXT05,Shakti Lodge,120,750,7,yes
+EXT06,City Inn,100,1600,5,yes

@@ -1,0 +1,32 @@
+event_id,event_name,type,rounds,duration_minutes,venue_requirements,equipment_needs,volunteers_needed
+E01,Aarohan,solo,prelims|semis|finals,90,audio; seating,barricades; tables,10
+E02,Pitch Perfect,solo,prelims|semis|finals,45,open ground,no special equipment,11
+E03,Case Clash,team,prelims|semis|finals,120,power; tables,projector; 2 extension cords,10
+E04,Biz Quiz,solo,single,120,open ground,no special equipment,10
+E05,Battle of Bands,solo,prelims|semis|finals,120,projector; seating,barricades; tables,12
+E06,Street Play,team,prelims|semis|finals,45,quiet room,barricades; tables,2
+E07,Nukkad Natak,solo,prelims|semis|finals,45,open ground,camera; tripod,2
+E08,Treasure Hunt,solo,single,45,stage; lights,projector; 2 extension cords,2
+E09,Code Relay,team,prelims|semis|finals,120,audio; seating,barricades; tables,2
+E10,Design Sprint,solo,prelims|semis|finals,45,projector; seating,camera; tripod,3
+E11,Debate,solo,prelims|semis|finals,60,power; tables,barricades; tables,5
+E12,MUN,team,single,120,audio; seating,no special equipment,5
+E13,Poetry Slam,solo,prelims|semis|finals,120,open ground,projector; 2 extension cords,11
+E14,Stand-up,solo,prelims|semis|finals,120,audio; seating,projector; 2 extension cords,4
+E15,Photography Walk,team,prelims|semis|finals,120,audio; seating,barricades; tables,12
+E16,Short Film,solo,single,90,power; tables,barricades; tables,7
+E17,Ad-Mad,solo,prelims|semis|finals,120,power; tables,no special equipment,3
+E18,Stock Wars,team,prelims|semis|finals,90,open ground,no special equipment,6
+E19,IPL Auction,solo,prelims|semis|finals,60,projector; seating,2 mics; 1 speaker,10
+E20,Dance Face-off,solo,single,60,power; tables,no special equipment,10
+E21,Fashion Show,team,prelims|semis|finals,60,audio; seating,barricades; tables,7
+E22,Open Mic,solo,prelims|semis|finals,120,audio; seating,projector; 2 extension cords,9
+E23,Chess,solo,prelims|semis|finals,120,quiet room,camera; tripod,5
+E24,Futsal,team,single,90,open ground,barricades; tables,4
+E25,Basketball,solo,prelims|semis|finals,60,audio; seating,no special equipment,4
+E26,Badminton,solo,prelims|semis|finals,120,quiet room,barricades; tables,2
+E27,Table Tennis,team,prelims|semis|finals,120,projector; seating,camera; tripod,2
+E28,Robo Race,solo,single,120,stage; lights,no special equipment,2
+E29,Treasure Trivia,solo,prelims|semis|finals,45,audio; seating,2 mics; 1 speaker,11
+E30,Startup Showcase,team,prelims|semis|finals,120,projector; seating,barricades; tables,11
+E31,Grand Finale,solo,prelims|semis|finals,120,stage; lights,no special equipment,3

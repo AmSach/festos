@@ -1,0 +1,115 @@
+heat,event_id,event,round,venue,start,end,competitors_assigned,planned_pool
+E19-P2,E19,IPL Auction,prelims,LT-1,2026-10-30 08:00,2026-10-30 09:00,93,93
+E27-P2,E27,Table Tennis,prelims,LT-2,2026-10-30 08:00,2026-10-30 10:00,89,90
+E16-H2,E16,Short Film,single,Sports Complex,2026-10-30 08:00,2026-10-30 09:30,100,97
+E18-P2,E18,Stock Wars,prelims,Quadrangle,2026-10-30 08:15,2026-10-30 09:45,84,84
+E13-P2,E13,Poetry Slam,prelims,Hostel Lawn,2026-10-30 08:30,2026-10-30 10:30,83,84
+E10-P2,E10,Design Sprint,prelims,LT-1,2026-10-30 09:30,2026-10-30 10:15,85,87
+E28-H2,E28,Robo Race,single,Amphitheatre,2026-10-30 10:15,2026-10-30 12:15,86,86
+E26-P1,E26,Badminton,prelims,Seminar Hall,2026-10-30 10:15,2026-10-30 12:15,48,48
+E17-P2,E17,Ad-Mad,prelims,Sports Complex,2026-10-30 10:15,2026-10-30 12:15,93,93
+E15-P2,E15,Photography Walk,prelims,LT-1,2026-10-30 10:45,2026-10-30 12:45,94,95
+E20-H2,E20,Dance Face-off,single,LT-2,2026-10-30 10:45,2026-10-30 11:45,92,92
+E14-P2,E14,Stand-up,prelims,LT-2,2026-10-30 12:15,2026-10-30 14:15,94,94
+E26-P4,E26,Badminton,prelims,Seminar Hall,2026-10-30 12:45,2026-10-30 14:45,47,48
+E01-P1,E01,Aarohan,prelims,Sports Complex,2026-10-30 12:45,2026-10-30 14:15,88,88
+E23-P3,E23,Chess,prelims,Library Hall,2026-10-30 12:45,2026-10-30 14:45,47,50
+E24-H2,E24,Futsal,single,Hostel Lawn,2026-10-30 13:15,2026-10-30 14:45,90,91
+E21-P2,E21,Fashion Show,prelims,Amphitheatre,2026-10-30 13:30,2026-10-30 14:30,89,91
+E01-P2,E01,Aarohan,prelims,Sports Complex,2026-10-30 14:30,2026-10-30 16:00,88,88
+E12-H1,E12,MUN,single,LT-2,2026-10-30 15:00,2026-10-30 17:00,85,85
+E22-P2,E22,Open Mic,prelims,Amphitheatre,2026-10-30 15:00,2026-10-30 17:00,103,95
+E09-P1,E09,Code Relay,prelims,LT-1,2026-10-30 15:30,2026-10-30 17:30,90,90
+E06-P3,E06,Street Play,prelims,Seminar Hall,2026-10-30 16:15,2026-10-30 17:00,58,58
+E23-P1,E23,Chess,prelims,Library Hall,2026-10-30 17:15,2026-10-30 19:15,48,50
+E30-P1,E30,Startup Showcase,prelims,LT-1,2026-10-30 18:00,2026-10-30 20:00,96,97
+E05-P1,E05,Battle of Bands,prelims,LT-2,2026-10-30 18:00,2026-10-30 20:00,91,91
+E31-P1,E31,Grand Finale,prelims,Amphitheatre,2026-10-30 18:00,2026-10-30 20:00,90,90
+E04-H1,E04,Biz Quiz,single,Quadrangle,2026-10-30 18:00,2026-10-30 20:00,100,91
+E03-P1,E03,Case Clash,prelims,Sports Complex,2026-10-30 18:00,2026-10-30 20:00,96,96
+E26-P2,E26,Badminton,prelims,Seminar Hall,2026-10-30 18:15,2026-10-30 20:15,48,48
+E02-P1,E02,Pitch Perfect,prelims,Hostel Lawn,2026-10-30 19:15,2026-10-30 20:00,95,85
+E11-P1,E11,Debate,prelims,LT-1,2026-10-30 20:30,2026-10-30 21:30,86,86
+E07-P1,E07,Nukkad Natak,prelims,Hostel Lawn,2026-10-30 20:30,2026-10-30 21:15,87,87
+E25-P1,E25,Basketball,prelims,Sports Complex,2026-10-30 20:30,2026-10-30 21:30,89,89
+E29-P1,E29,Treasure Trivia,prelims,Amphitheatre,2026-10-30 20:45,2026-10-30 21:30,96,96
+E30-P2,E30,Startup Showcase,prelims,LT-1,2026-10-31 08:00,2026-10-31 10:00,97,97
+E08-H1,E08,Treasure Hunt,single,Amphitheatre,2026-10-31 08:00,2026-10-31 08:45,96,96
+E13-P1,E13,Poetry Slam,prelims,Hostel Lawn,2026-10-31 08:00,2026-10-31 10:00,84,84
+E24-H1,E24,Futsal,single,Quadrangle,2026-10-31 08:15,2026-10-31 09:45,92,91
+E19-P1,E19,IPL Auction,prelims,LT-2,2026-10-31 08:45,2026-10-31 09:45,92,93
+E31-P2,E31,Grand Finale,prelims,Amphitheatre,2026-10-31 09:30,2026-10-31 11:30,89,90
+E03-P2,E03,Case Clash,prelims,Sports Complex,2026-10-31 10:00,2026-10-31 12:00,95,96
+E27-P1,E27,Table Tennis,prelims,LT-2,2026-10-31 10:15,2026-10-31 12:15,90,90
+E06-P1,E06,Street Play,prelims,Library Hall,2026-10-31 10:15,2026-10-31 11:00,58,58
+E19-S1,E19,IPL Auction,semis,Main Stage,2026-10-31 10:30,2026-10-31 11:30,0,56
+E10-P1,E10,Design Sprint,prelims,LT-1,2026-10-31 10:30,2026-10-31 11:15,88,87
+E28-H1,E28,Robo Race,single,Amphitheatre,2026-10-31 12:00,2026-10-31 14:00,86,86
+E23-P2,E23,Chess,prelims,Library Hall,2026-10-31 12:00,2026-10-31 14:00,53,50
+E31-S1,E31,Grand Finale,semis,Main Stage,2026-10-31 12:15,2026-10-31 14:15,0,54
+E05-P2,E05,Battle of Bands,prelims,LT-1,2026-10-31 12:15,2026-10-31 14:15,90,91
+E17-P1,E17,Ad-Mad,prelims,Sports Complex,2026-10-31 12:30,2026-10-31 14:30,93,93
+E20-H1,E20,Dance Face-off,single,LT-2,2026-10-31 12:45,2026-10-31 13:45,92,92
+E18-P1,E18,Stock Wars,prelims,Quadrangle,2026-10-31 14:15,2026-10-31 15:45,84,84
+E15-P1,E15,Photography Walk,prelims,LT-2,2026-10-31 14:30,2026-10-31 16:30,95,95
+E27-S1,E27,Table Tennis,semis,Main Stage,2026-10-31 14:45,2026-10-31 16:45,0,54
+E11-P2,E11,Debate,prelims,LT-1,2026-10-31 14:45,2026-10-31 15:45,85,86
+E29-P2,E29,Treasure Trivia,prelims,Amphitheatre,2026-10-31 14:45,2026-10-31 15:30,95,96
+E23-S1,E23,Chess,semis,Seminar Hall,2026-10-31 14:45,2026-10-31 16:45,0,45
+E22-P1,E22,Open Mic,prelims,Sports Complex,2026-10-31 15:00,2026-10-31 17:00,86,95
+E14-P1,E14,Stand-up,prelims,Amphitheatre,2026-10-31 16:00,2026-10-31 18:00,94,94
+E26-P3,E26,Badminton,prelims,Library Hall,2026-10-31 16:00,2026-10-31 18:00,48,48
+E21-P1,E21,Fashion Show,prelims,LT-1,2026-10-31 16:15,2026-10-31 17:15,92,91
+E09-P2,E09,Code Relay,prelims,LT-2,2026-10-31 17:00,2026-10-31 19:00,90,90
+E12-H2,E12,MUN,single,LT-1,2026-10-31 17:45,2026-10-31 19:45,85,85
+E15-S1,E15,Photography Walk,semis,Seminar Hall,2026-10-31 17:45,2026-10-31 19:45,0,57
+E25-P2,E25,Basketball,prelims,Sports Complex,2026-10-31 18:00,2026-10-31 19:00,88,89
+E26-S1,E26,Badminton,semis,Library Hall,2026-10-31 19:15,2026-10-31 21:15,0,58
+E14-S1,E14,Stand-up,semis,LT-2,2026-10-31 19:30,2026-10-31 21:30,0,57
+E22-S1,E22,Open Mic,semis,Amphitheatre,2026-10-31 19:30,2026-10-31 21:30,0,57
+E13-S1,E13,Poetry Slam,semis,Quadrangle,2026-10-31 19:30,2026-10-31 21:30,0,51
+E01-S1,E01,Aarohan,semis,Main Stage,2026-10-31 20:00,2026-10-31 21:30,0,53
+E09-S1,E09,Code Relay,semis,Sports Complex,2026-10-31 20:00,2026-10-31 22:00,0,54
+E11-S1,E11,Debate,semis,LT-1,2026-10-31 20:30,2026-10-31 21:30,0,52
+E21-S1,E21,Fashion Show,semis,Main Stage,2026-11-01 08:00,2026-11-01 09:00,0,55
+E30-S1,E30,Startup Showcase,semis,LT-2,2026-11-01 08:00,2026-11-01 10:00,0,58
+E08-H2,E08,Treasure Hunt,single,Amphitheatre,2026-11-01 08:00,2026-11-01 08:45,95,96
+E05-S1,E05,Battle of Bands,semis,LT-1,2026-11-01 08:15,2026-11-01 10:15,0,55
+E07-P2,E07,Nukkad Natak,prelims,Hostel Lawn,2026-11-01 08:15,2026-11-01 09:00,87,87
+E25-S1,E25,Basketball,semis,Sports Complex,2026-11-01 08:45,2026-11-01 09:45,0,54
+E10-S1,E10,Design Sprint,semis,Seminar Hall,2026-11-01 09:15,2026-11-01 10:00,0,52
+E29-S1,E29,Treasure Trivia,semis,Amphitheatre,2026-11-01 09:30,2026-11-01 10:15,0,58
+E07-S1,E07,Nukkad Natak,semis,Quadrangle,2026-11-01 10:15,2026-11-01 11:00,0,53
+E22-F1,E22,Open Mic,finals,Main Stage,2026-11-01 10:30,2026-11-01 12:30,0,19
+E03-S1,E03,Case Clash,semis,LT-2,2026-11-01 10:30,2026-11-01 12:30,0,58
+E02-P2,E02,Pitch Perfect,prelims,Hostel Lawn,2026-11-01 10:30,2026-11-01 11:15,74,85
+E17-S1,E17,Ad-Mad,semis,Seminar Hall,2026-11-01 10:30,2026-11-01 12:30,0,56
+E16-H1,E16,Short Film,single,Sports Complex,2026-11-01 11:00,2026-11-01 12:30,92,97
+E01-F1,E01,Aarohan,finals,LT-1,2026-11-01 11:15,2026-11-01 12:45,0,18
+E18-S1,E18,Stock Wars,semis,Amphitheatre,2026-11-01 11:15,2026-11-01 12:45,0,51
+E06-P2,E06,Street Play,prelims,Library Hall,2026-11-01 11:45,2026-11-01 12:30,58,58
+E13-F1,E13,Poetry Slam,finals,Quadrangle,2026-11-01 12:15,2026-11-01 14:15,0,17
+E14-F1,E14,Stand-up,finals,LT-2,2026-11-01 13:00,2026-11-01 15:00,0,19
+E09-F1,E09,Code Relay,finals,Seminar Hall,2026-11-01 13:00,2026-11-01 15:00,0,18
+E21-F1,E21,Fashion Show,finals,Main Stage,2026-11-01 13:15,2026-11-01 14:15,0,19
+E02-S1,E02,Pitch Perfect,semis,Hostel Lawn,2026-11-01 13:15,2026-11-01 14:00,0,51
+E17-F1,E17,Ad-Mad,finals,Sports Complex,2026-11-01 13:15,2026-11-01 15:15,0,19
+E06-S1,E06,Street Play,semis,Library Hall,2026-11-01 13:15,2026-11-01 14:00,0,53
+E25-F1,E25,Basketball,finals,Amphitheatre,2026-11-01 13:30,2026-11-01 14:30,0,18
+E06-F1,E06,Street Play,finals,Library Hall,2026-11-01 14:45,2026-11-01 15:30,0,18
+E05-F1,E05,Battle of Bands,finals,LT-1,2026-11-01 15:00,2026-11-01 17:00,0,19
+E15-F1,E15,Photography Walk,finals,Amphitheatre,2026-11-01 15:00,2026-11-01 17:00,0,19
+E02-F1,E02,Pitch Perfect,finals,Quadrangle,2026-11-01 15:00,2026-11-01 15:45,0,17
+E04-H2,E04,Biz Quiz,single,Hostel Lawn,2026-11-01 15:15,2026-11-01 17:15,82,91
+E27-F1,E27,Table Tennis,finals,LT-2,2026-11-01 15:45,2026-11-01 17:45,0,18
+E03-F1,E03,Case Clash,finals,Sports Complex,2026-11-01 15:45,2026-11-01 17:45,0,20
+E23-F1,E23,Chess,finals,Seminar Hall,2026-11-01 16:00,2026-11-01 18:00,0,15
+E26-F1,E26,Badminton,finals,Library Hall,2026-11-01 16:00,2026-11-01 18:00,0,20
+E18-F1,E18,Stock Wars,finals,Quadrangle,2026-11-01 16:30,2026-11-01 18:00,0,17
+E29-F1,E29,Treasure Trivia,finals,Main Stage,2026-11-01 17:00,2026-11-01 17:45,0,20
+E31-F1,E31,Grand Finale,finals,Amphitheatre,2026-11-01 17:30,2026-11-01 19:30,0,18
+E30-F1,E30,Startup Showcase,finals,LT-1,2026-11-01 18:00,2026-11-01 20:00,0,20
+E07-F1,E07,Nukkad Natak,finals,Hostel Lawn,2026-11-01 18:00,2026-11-01 18:45,0,18
+E10-F1,E10,Design Sprint,finals,Main Stage,2026-11-01 18:15,2026-11-01 19:00,0,18
+E19-F1,E19,IPL Auction,finals,LT-2,2026-11-01 18:15,2026-11-01 19:15,0,19
+E11-F1,E11,Debate,finals,Seminar Hall,2026-11-01 18:30,2026-11-01 19:30,0,18
