@@ -14,7 +14,8 @@ if sys.platform == "win32":
     except Exception:
         pass
 
-DB_PATH = "festos.db"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_PATH = os.path.join(BASE_DIR, "festos.db")
 
 def inspect_person(pid):
     con = sqlite3.connect(DB_PATH)
