@@ -26,15 +26,20 @@ export function s(tag, attrs, ...kids) {
 }
 
 export async function api(path, body, opts = {}) {
-  const res = await fetch("/api" + path, {
-    method: body !== undefined ? "POST" : "GET",
-    headers: { "Content-Type": "application/json", ...(S.token ? { Authorization: "Bearer " + S.token } : {}) },
-    body: body !== undefined ? JSON.stringify(body) : undefined,
-  });
+  let res;
+  try {
+    res = await fetch("/api" + path, {
+      method: body !== undefined ? "POST" : "GET",
+      headers: { "Content-Type": "application/json", ...(S.token ? { Authorization: "Bearer " + S.token } : {}) },
+      body: body !== undefined ? JSON.stringify(body) : undefined,
+    });
+  } catch (err) {
+    throw new Error(`Network offline or unreachable (/api${path}): ${err.message}`);
+  }
   let data = {};
   try { data = await res.json(); } catch (e) { }
   if (res.status === 401 && !opts.noLogout) { logout(); throw new Error("Please sign in."); }
-  if (!res.ok) { const e = new Error(data.error || res.statusText); e.data = data; e.status = res.status; throw e; }
+  if (!res.ok) { const e = new Error(data.error || res.statusText || `Request failed (${res.status})`); e.data = data; e.status = res.status; throw e; }
   return data;
 }
 export function logout() {

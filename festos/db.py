@@ -118,6 +118,10 @@ CREATE TABLE IF NOT EXISTS tasks (id INTEGER PRIMARY KEY AUTOINCREMENT, ts TEXT,
 def connect(path=None):
     con = sqlite3.connect(path or DB_PATH, check_same_thread=False, timeout=30)
     con.row_factory = sqlite3.Row
+    try:
+        con.execute("PRAGMA busy_timeout = 30000;")
+    except Exception:
+        pass
     return con
 
 

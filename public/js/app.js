@@ -80,6 +80,12 @@ function searchBox() {
 // ------------------------------------------------------------ shell
 export function shell(content, active) {
   const app = document.getElementById("app");
+  if (!app) return;
+  if (!S.user) {
+    location.hash = "#/login";
+    loginView();
+    return;
+  }
   app.innerHTML = "";
   const nav = h("nav", { "aria-label": "Main" });
   NAV.forEach(([g, items]) => {
@@ -98,11 +104,15 @@ export function shell(content, active) {
     } }, "+1 h") : null);
   app.appendChild(h("div", { class: "shell" },
     h("aside", { class: "rail" },
-      h("div", { class: "brand" }, h("b", {}, "FestOS"), h("span", {}, "Aarohan control")),
+      h("div", { class: "brand" }, 
+        h("div", { class: "brand-logo" }, h("b", {}, "FestOS"), h("span", { class: "brand-live" }, "LIVE")),
+        h("span", { class: "brand-sub" }, "Aarohan 2026 Control")),
       nav,
-      h("div", { class: "who" }, h("b", {}, S.user.name), `${S.user.role} · ${S.user.uid}`, h("br"),
-        h("span", { class: "small" }, `Shift ${S.user.shift} ` + (S.user.on_shift ? "· on shift" : "· off shift")), h("br"),
-        h("button", { onclick: logout }, "Sign out"))),
+      h("div", { class: "who" }, 
+        h("div", { class: "who-name" }, S.user.name), 
+        h("div", { class: "who-role" }, `${S.user.role} · ${S.user.uid}`),
+        h("span", { class: "small who-shift" }, `Shift ${S.user.shift} ` + (S.user.on_shift ? "· on shift" : "· off shift")),
+        h("button", { class: "signout-btn", onclick: logout }, "Sign out"))),
     h("div", { class: "main" },
       h("header", { class: "topbar" }, ribbon(), h("div", { class: "bar2" }, searchBox(), h("span", { class: "sp" }), clockctl)),
       h("main", { class: "page", id: "page" }, content))));
@@ -142,16 +152,51 @@ async function loginView() {
 
 // ------------------------------------------------------------ boot
 async function boot() {
-  if (!S.token) { location.hash = "#/login"; return loginView(); }
+  if (!S.token) { 
+    location.hash = "#/login"; 
+    return loginView(); 
+  }
   try {
     const d = await api("/me");
-    S.user = d.user; S.clock = d.clock; S.clockMode = d.clock_mode;
-  } catch (e) { return loginView(); }
+    S.user = d.user; 
+    S.clock = d.clock; 
+    S.clockMode = d.clock_mode;
+  } catch (e) { 
+    console.warn("Auth check failed:", e.message);
+    return loginView(); 
+  }
   render();
 }
 
 route("/login", () => loginView());
-const wrap = (href, fn) => async (p, q) => { shell(h("div", { class: "empty" }, "Loading…"), href); try { await fn(p, q); } catch (e) { const pg = document.getElementById("page"); if (pg) pg.replaceChildren(h("div", { class: "note crit" }, e.message)); } };
+const wrap = (href, fn) => async (p, q) => {
+  if (!S.user && location.hash !== "#/login") {
+    location.hash = "#/login";
+    return;
+  }
+  try {
+    shell(h("div", { class: "empty", style: { padding: "40px 0" } }, 
+      h("div", { class: "loading-spinner" }),
+      h("div", { style: { marginTop: "12px", color: "var(--ink-3)", fontSize: "13px" } }, "Syncing festival state…")
+    ), href);
+    await fn(p, q);
+  } catch (e) {
+    console.error("View error:", e);
+    const pg = document.getElementById("page");
+    if (pg) {
+      pg.replaceChildren(
+        h("div", { class: "note crit", style: { padding: "18px 20px", borderRadius: "8px", margin: "20px 0" } },
+          h("div", { style: { fontWeight: "700", fontSize: "15px", marginBottom: "4px" } }, "Unable to load view"),
+          h("div", { style: { fontSize: "13.5px", marginBottom: "14px" } }, e.message || "An unexpected error occurred while communicating with the server."),
+          h("div", { class: "row", style: { gap: "8px" } },
+            h("button", { class: "btn primary sm", onclick: () => render() }, "Retry"),
+            h("button", { class: "btn sm", onclick: () => { location.hash = "#/"; render(); } }, "Return to Control Tower")
+          )
+        )
+      );
+    }
+  }
+};
 route("/", wrap("#/", ops.control));
 route("/desk", wrap("#/desk", ops.desk));
 route("/people", wrap("#/people", ops.people));
