@@ -6,13 +6,18 @@ FestOS is the internal portal the Aarohan core team uses to run a three-day, 2,8
 
 ---
 
-## 1. Run it (2 minutes)
+## 1. Quick Start for Judges (1-Click Run)
 
-Requirements: **Python 3.9+**. No packages are required.
+Requirements: **Python 3.9+** (Standard library only; zero npm/node or pip installs required).
 
+- **Windows (1-Click):** Double-click **`START_FESTOS.bat`** (or `RUN_FESTOS.bat`). It automatically detects Python, launches the local server, and opens your browser at `http://localhost:8000`.
+- **macOS / Linux:** Run `chmod +x run_festos.sh && ./run_festos.sh` in terminal.
+- **Live Cloud Deployment:** Accessible 24/7 at **[https://festosarb.vercel.app](https://festosarb.vercel.app)**
+- **Official GitHub Repo:** **[https://github.com/AmSach/festos](https://github.com/AmSach/festos)**
+
+Manual launch from terminal:
 ```bash
-cd festos
-python3 run.py              # opens http://localhost:8000
+python run.py              # opens http://localhost:8000
 ```
 
 - The submission ships with a pre-built plan (`festos.db`), so it starts instantly. `python3 run.py --reset` rebuilds everything from `data/` (≈1 min; the cost/cohesion alternatives keep computing in the background for another minute).
