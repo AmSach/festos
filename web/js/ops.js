@@ -67,10 +67,17 @@ export async function desk(p, q) {
   const out = h("div");
   const look = async () => {
     const v = inp.value.trim();
-    if (!v) return;
+    if (!v) {
+      out.replaceChildren(h("div", { class: "note" }, "Please enter a participant ID (e.g. P0004) or name."));
+      return;
+    }
     let pid = v.toUpperCase();
     if (!/^P[\d_]/.test(pid) && !/^[LE]-/.test(pid)) {
       const r = await api("/participants?q=" + encodeURIComponent(v) + "&limit=12");
+      if (r.rows.length === 0) {
+        out.replaceChildren(h("div", { class: "note warn" }, `No matches found for "${v}". Try a participant ID like P0004 or search another name.`));
+        return;
+      }
       if (r.rows.length !== 1) {
         out.replaceChildren(h("div", { class: "card" }, h("p", {}, `${r.total} matches — names repeat a lot here, so pick by college and arrival:`),
           table([{ label: "ID", key: "pid" }, { label: "Name", key: "name" }, { label: "College", key: "college" }, { label: "Arrives", f: (x) => fmt.t(x.arrival) }],

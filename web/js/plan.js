@@ -298,7 +298,12 @@ export async function merch(p, q) {
     const sub = h("input", { type: "checkbox" });
     const out = h("div");
     const issue = async () => {
-      const r = await api("/merch/issue", { pid: pid.value, item: item.value, allow_sub: sub.checked, desk: "Merch desk" });
+      const v = pid.value.trim();
+      if (!v) {
+        out.replaceChildren(h("div", { class: "note warn" }, "Please scan or enter a Participant ID."));
+        return;
+      }
+      const r = await api("/merch/issue", { pid: v, item: item.value, allow_sub: sub.checked, desk: "Merch desk" });
       out.replaceChildren(h("div", { class: "note " + (r.ok ? "" : r.code === "DUPLICATE_CLAIM" ? "crit" : "warn"), style: { fontSize: "15px" } },
         r.ok ? h("b", {}, `Issued ${r.item}${r.size !== "NA" ? " " + r.size : ""} to ${r.name}. ${r.left} left in that size.`) : [h("b", {}, r.message), r.substitutes && r.substitutes.length ? h("div", {}, `Available one size up: ${r.substitutes.join(", ")} — tick “offer one size up” if the participant agrees.`) : null]));
       if (r.ok) { pid.value = ""; pid.focus(); }
