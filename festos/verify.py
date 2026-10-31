@@ -5,6 +5,13 @@ import json
 import sys
 from collections import Counter, defaultdict
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 from . import schedule, timeutil as T
 from .db import connect, get_setting
 
@@ -94,7 +101,7 @@ def check(con):
     cost = sum(a["cost"] or 0 for a in alloc)
     budget = get_setting(con, "budget_external_inr")
     budget_ov = con.execute("SELECT COUNT(*) FROM overrides WHERE kind='budget'").fetchone()[0]
-    rule("External spend within budget (or Director override recorded)", cost > budget and not budget_ov, f"₹{cost:,} of ₹{budget:,}")
+    rule("External spend within budget (or Director override recorded)", cost > budget and not budget_ov, f"Rs. {cost:,} of {budget:,}")
     # leaders near group
     units = defaultdict(set)
     for a in alloc:
