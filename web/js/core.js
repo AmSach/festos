@@ -226,7 +226,7 @@ export function can(view) { return S.user && (S.user.view === "*" || S.user.view
 export function canW(action) { return S.user && (S.user.write === "*" || S.user.write.includes(action)); }
 export function mount(...kids) {
   const pg = document.getElementById("page");
-  if (pg) pg.replaceChildren(...kids.flat().filter(Boolean));
+  if (pg) pg.replaceChildren(...kids.flat(Infinity).filter(Boolean));
 }
 export function head(title, sub, ...right) {
   return h("div", { class: "pagehead" }, h("div", {}, h("h1", {}, title), sub ? h("p", {}, sub) : null), h("div", { class: "row" }, ...right));
