@@ -11,7 +11,7 @@ from . import config
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.environ.get("FESTOS_DB", os.path.join(ROOT, "festos.db"))
 DATA_DIR = os.path.join(ROOT, "data")
-SNAP_DIR = os.path.join(ROOT, "snapshots")
+SNAP_DIR = os.environ.get("FESTOS_SNAP_DIR", os.path.join(os.path.dirname(DB_PATH), "snapshots"))
 
 LOCK = threading.RLock()
 

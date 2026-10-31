@@ -26,9 +26,11 @@ if not os.path.exists(TMP_DB) and os.path.exists(ORIG_DB):
 
 ACTIVE_DB = TMP_DB if os.path.exists(TMP_DB) else ORIG_DB
 os.environ["FESTOS_DB"] = ACTIVE_DB
+os.environ["FESTOS_SNAP_DIR"] = os.path.join(os.path.dirname(ACTIVE_DB), "snapshots")
 
 from festos import db
 db.DB_PATH = ACTIVE_DB
+db.SNAP_DIR = os.environ["FESTOS_SNAP_DIR"]
 
 from festos import api  # noqa: F401  (registers routes)
 from festos import server

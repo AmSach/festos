@@ -14,15 +14,43 @@ SECRET_PATH = os.path.join(ROOT, ".festos_secret")
 
 
 def _secret():
-    if not os.path.exists(SECRET_PATH):
-        with open(SECRET_PATH, "wb") as fh:
-            fh.write(secrets.token_bytes(32))
+    env_sec = os.environ.get("FESTOS_SECRET")
+    if env_sec:
+        return env_sec.encode() if isinstance(env_sec, str) else env_sec
+
+    # Check primary path (ROOT/.festos_secret)
+    if os.path.exists(SECRET_PATH):
         try:
-            os.chmod(SECRET_PATH, 0o600)
-        except OSError:
+            with open(SECRET_PATH, "rb") as fh:
+                return fh.read()
+        except Exception:
             pass
-    with open(SECRET_PATH, "rb") as fh:
-        return fh.read()
+
+    # Try writable paths: primary, then /tmp or system temp dir
+    paths = [SECRET_PATH]
+    if os.name != "nt":
+        paths.append("/tmp/.festos_secret")
+    else:
+        import tempfile
+        paths.append(os.path.join(tempfile.gettempdir(), ".festos_secret"))
+
+    tok = secrets.token_bytes(32)
+    for p in paths:
+        try:
+            if not os.path.exists(p):
+                with open(p, "wb") as fh:
+                    fh.write(tok)
+                try:
+                    os.chmod(p, 0o600)
+                except OSError:
+                    pass
+            with open(p, "rb") as fh:
+                return fh.read()
+        except OSError:
+            continue
+
+    # Ephemeral fallback for completely read-only containers
+    return tok
 
 
 SECRET = None
