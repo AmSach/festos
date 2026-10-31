@@ -315,7 +315,7 @@ export async function merch(p, q) {
       h("p", { class: "small muted", style: { marginTop: "8px" } }, "Runs out = the arrival at which stock is exhausted if kits are handed out in arrival order. Totes and special badges have no eligibility rule in the pack and are not auto-issued."));
   } else if (tab === "fair") {
     body.append(h("p", {}, "When a size is short, each contingent gets a quota proportional to its demand (largest-remainder method) so early arrivals don't empty a size for everyone else."),
-      Object.entries(d.fair_share).map(([size, f]) => h("section", { class: "panel" }, h("h2", { style: { marginTop: 0 } }, `T-shirt ${size}: ${f.available} for ${f.demand}`),
+      ...Object.entries(d.fair_share).map(([size, f]) => h("section", { class: "panel" }, h("h2", { style: { marginTop: 0 } }, `T-shirt ${size}: ${f.available} for ${f.demand}`),
         h("div", { style: { columns: 4, fontSize: "13px" } }, Object.entries(f.quota).sort().map(([c, n]) => h("div", {}, h("b", {}, c), ` ${n}`))))));
   } else {
     body.append(table([{ label: "Blocked at", f: (b) => fmt.t(b.ts) }, { label: "Person", f: (b) => [h("a", { href: "#/people/" + b.pid }, b.pid), " ", b.name] }, { label: "Item", key: "item" }, { label: "Desk / staff", f: (b) => `${b.desk} · ${b.actor}` },
